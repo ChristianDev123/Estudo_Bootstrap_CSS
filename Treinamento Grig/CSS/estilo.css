@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(117, 117, 117);
+    font-family: 'Times New Roman', Times, serif;
+}
+div.container-fluid{
+    padding:0;
+    margin-top:200px;
+}
+div#secao_brasileirao{
+    background-color:whitesmoke;
+    border: .5px solid rgb(212, 212, 212);
+    padding:15px;
+}
+img#brasileiro_2020{
+    border-radius:10px
+}
+div#titulo_secao{
+    height:80px;
+}
+h2{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:40px;
+    text-decoration-line: underline;
+    color:rgb(216, 40, 40);
+}
+div#texto_brasileirao{
+    text-align:justify;
+}
+div#texto_brasileirao p{
+    font-size:20px;
+}
+div#texto_brasileirao h3{
+    font-size:28px;
+    font-weight: bold;
+}
+span.texto_red{
+    color:red;
+}

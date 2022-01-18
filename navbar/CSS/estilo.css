@@ -1,0 +1,43 @@
+/* Geral */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    margin: 0;
+}
+.container{
+    padding:50px 0px; 
+}
+/* Navbar */
+header{
+    background-color: #595959;
+}
+.navbar{
+    background-color: #595959;
+}
+#nav-container{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-brand{
+    padding:10px;
+    color:white;
+}
+.navbar-brand:hover{
+    color:white;
+}
+#navbar-links a{
+    color:white;
+    font-size:23px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+img#escudoMengao{
+    max-width:230px;
+    border-radius:10px;
+}
+p{
+    margin-top:5px;
+    text-align:center;
+}

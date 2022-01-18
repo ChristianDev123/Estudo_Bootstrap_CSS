@@ -1,0 +1,39 @@
+body{
+    background-color:gray;
+}
+form.formulario{
+    background-color: whitesmoke;
+    padding:20px;
+    border:1px solid purple;
+    text-align: center;
+}
+.formulario #texto{
+    width:50%;
+    height:40px;
+    display:inline;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    box-sizing: border-box;
+    border:1px solid purple;
+}
+input[type='submit']{
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    height:40px;
+    padding:0 20px;
+    margin-left:-70px;
+    border:1px solid purple;
+    position:absolute;
+    text-transform:uppercase;
+    font-weight: bold;
+    background-color:purple;
+    color:white;
+}
+input[type='submit']:hover{
+    background-color:whitesmoke;
+    color:purple;
+    transition:.7s;
+}
+input[type='text']:focus{
+    box-shadow:none;
+}

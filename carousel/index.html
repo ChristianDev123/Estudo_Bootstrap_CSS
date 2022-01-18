@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Bootstrap</title>
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/estilo.css">
+    
+    <!-- Scripts: --> 
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/26d82d6933.js" crossorigin="anonymous"></script>
+    <!-- Progress Bar -->
+    <script src="JS/progress.min.js"></script>
+    <!-- Paralax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <!-- Fontes Robotos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Poper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Carousel -->
+    <main>
+        <div class="container-fluid"> <!-- Determina q a Div vai ter o tamanho da tela inteira -->
+            <div id="Carrosel" class="carousel slider" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <input type='button' data-bs-target="#Carrosel" data-bs-slide-to="0" class="active" aria-label="Slide 1">
+                    <input type='button' data-bs-target="#Carrosel" data-bs-slide-to="1"aria-label="Slide 2">
+                    <input type='button' data-bs-target="#Carrosel" data-bs-slide-to="2"aria-label="Slide 3">
+                </ol>
+                <!-- Conteudos do Carrosel-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagens/maracana.jpg" class="d-block w-100" alt="Casa do Flamengo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Maracanâ Estádio considerada casa do Mengão</h2>
+                            <p>Atualmente partilhado entre Fluminense e Flamengo o estádio reuni dezenas de milhares de pessoas todos os jogos! </p>
+                            <a href="#" class="main-btn">Estádio</a>
+                        </div>                        
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/jorge_jesus.jpeg" class="d-block w-100" alt="Técnicos que já passaram pela Seleção">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Técnicos que passaram pelo time nos ultimos anos:</h2>
+                            <p>Com passagem astronomica pelo time em 2019, o técnico Jorge Jesus está guardado no coração de cada flamenguista até hoje!</p>
+                            <a href="#" class="main-btn">Técnicos</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/taca_libertadores.jpg" class="d-block w-100" alt="Conquistas alcançadas nos últimos anos">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Títulos conquistados nos últimos tempos:</h2>
+                            <p>O Campeão nos ultimos anos alcançou números invejáveis de títulos!</p>
+                            <a href="#" class="main-btn">Títulos</a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Botões de navegação -->
+                 <button type="button" class="carousel-control-prev" data-bs-target="#Carrosel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Voltando</span>
+                 </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#Carrosel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

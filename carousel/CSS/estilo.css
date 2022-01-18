@@ -1,0 +1,33 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 3px black;
+}
+div.container-fluid{
+    padding:0;
+}
+div.carousel-item .carousel-inner, div#Carrosel .carousel-item{
+    height:90vh;
+}
+div.carousel-item .carousel-caption h2{
+    font-size: 30px;
+}
+.carousel-caption{
+    top:70%;
+}
+div.carousel-item .carousel-caption p{
+    font-size: 25px;
+}
+.main-btn{
+    text-decoration:none;
+    text-transform: uppercase;
+    background-color:black;
+    color:gray;
+    border:3px solid red;
+    border-radius:20px;
+    padding:10px;
+}
+.main-btn:hover{
+    background-color:transparent;
+    color:black;
+    transition:1s;
+}

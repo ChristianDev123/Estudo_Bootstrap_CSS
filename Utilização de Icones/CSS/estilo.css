@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(117, 117, 117);
+    font-family: 'Times New Roman', Times, serif;
+}
+div.container-fluid{
+    padding:0;
+    margin-top:200px;
+}
+div#tecs_utilizadas{
+    background-color: whitesmoke;
+    padding:20px;
+    border-radius:15px;
+}
+h2.titulos_secao{
+    text-align: center;
+    margin-bottom:50px;
+    font-size: 35px;
+    color:rgb(216, 40, 40);
+}
+div.tecnologias{
+    text-align: center;
+}
+div.tecnologias p{
+    font-size: 25px;
+}
+div.tecnologias i{
+    font-size: 100px;   
+}
+div.tecnologias:hover > i{
+    color:rgb(216, 40, 40);
+    font-size:125px;
+    transition:.5s;
+}

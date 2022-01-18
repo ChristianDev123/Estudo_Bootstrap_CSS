@@ -1,0 +1,43 @@
+body{
+    background-color:gray;
+}
+h3{
+    text-align: center;
+}
+div.cabecalho{
+    background:whitesmoke;
+    padding:10px;
+}
+div.div_imagens{
+    padding:20px;
+}
+img{
+    border:1px solid black;
+    border-radius:15px;
+}
+img:hover{
+    box-shadow:4px 4px 15px gold;
+    transition:.7s;
+}
+div#div_btns{
+    margin-bottom:50px;
+    text-align:center;
+}
+.btns_seletores{
+    font-size:20px;
+    font-family:times;
+    text-transform: uppercase;
+    height:50px;
+    border:2px solid darkred;
+    border-radius:25px;
+    background:transparent;
+}
+.btns_seletores:hover{
+    color:white;
+    background-color:darkred;
+    transition:.7s;
+}
+button.active{
+    color:white;
+    background-color:darkred;
+}

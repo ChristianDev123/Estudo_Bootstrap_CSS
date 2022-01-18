@@ -1,0 +1,50 @@
+/*Alinhamento navbar*/
+div.wrapper{
+    display:flex;
+    align-items:stretch;
+}
+#sidebar{
+    width:250px;
+    position:fixed;
+    top:0;
+    left:0;
+    height:100vh;
+    z-index: 999;
+    min-height:100vh;
+    background-color:aqua;
+    color:white;
+    transition:all 0.5s;
+}
+#sidebar.active{
+    margin-left: -250px;
+}
+/*estilização*/
+body{
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 3px black;
+}
+p{
+    font-size:20px;
+    font-weight: 300;
+    color:white;
+}
+a, a:hover, a:focus{
+    color:inherit;
+    text-decoration:none;
+    transition: all 0.5s;
+}
+#sidebar .sidebar-header{
+    padding:20px;
+    background-color: rgb(0, 174, 255);
+}
+#sidebar ul.components{
+    padding:20px 0;
+    border-bottom:1px solid blue;
+}
+#sidebar ul p{
+    padding:10px;
+}
+ul ul a {
+    padding-left:30px;
+    background-color:rgb(0, 174, 255);
+}
